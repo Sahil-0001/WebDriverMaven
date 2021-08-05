@@ -57,7 +57,7 @@ public class TestSample1 {
 	driver.findElement(By.xpath("//span[text()='Next']")).click();
 	
 	driver.quit();
-	
+	System.out.println("Browser quit successfully.");
 	}
 	
 
